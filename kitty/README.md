@@ -42,7 +42,7 @@ if [ "$color_prompt" = yes ]; then
 else
     PS1="\[\e[38;2;253;255;194m\]──➤ \[\e[0m\]\[\e[1m\]\W\[\e[0m\] "
 ```
-Comment out your current `PS1` value and add the `PS1` definition that you see above. Note that instead of the arrow, add any unicode symbol (at least I believe so).
+Comment out your current `PS1` value and add the `PS1` definition that you see above. Note that instead of the arrow, you should be able to add any unicode symbol (at least I believe so).
 
 Note that you can also just add `PS1="\[\e[38;2;253;255;194m\]──➤ \[\e[0m\]\[\e[1m\]\W\[\e[0m\] "` near the end of your `~/.bashrc` script.
 
