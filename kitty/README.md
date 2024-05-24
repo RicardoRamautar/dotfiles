@@ -3,7 +3,7 @@
 My kitty configuration is largely based on the macchiato configuration from [this repo](https://github.com/catppuccin/kitty). But my repo will contain all the code that you need. Looking at this readme, you might be thinking: "Wow that is a lot of text". That's because I wanted to be thorough. But don't worry! It is actually very easy to do.
 
 # Terminal breakdown
-![alt text](image-1.png)
+![alt text](images/full_terminal.png)
 In the image above, you see 3 main elements:
 - **Arrow** - The yellow arrow specifies the beginning of a line.
 - **Current directory** - The `catkin_ws` displayed in bold is the current directory that you are in. So, it will not display the entire path.
@@ -57,12 +57,15 @@ Right now, you might be thinking: "Why do I have this ugly top bar on my kitty t
 PLEASE BE AWARE that this gnome extension is a blessing and a curse. The reason for this is that this app will remove the top bar of some apps, but not all. Top bars are often ugly, but they are usefull, since they allow you to drag the app across the screen and minimize and close the app. Without the top bar, you will not be able to do that anymore with some apps (i.e. vscode and kitty). Hence, make sure you ahave keybinding shortcuts to minimize, close, and move apps.
 
 These are my settings for the unite extension. You can change the settings of the unite extension inside the `Tweaks` app. Note that I just changed the settings until the top bar was removed and honestly have no idea what all these settings are:
+
 ![alt text](images/unite_1.png)
 ![alt text](images/unite_2.png)
 
 ### Adding a keyboard shortcut to open kitty
 Inside Ubuntu 20.04, you can create and edit keyboard shortcuts by opening your settings and heading to `Keyboard Shortcuts`. All the way at the bottom, you can add custom shortcuts. If you click the `+`-sign, you will see this screen pop up:
+
 ![alt text](images/shortcuts.png)
+
 The name doesn't really matter, so you can name it whatever you want. However, you need to put the command to: `kitty`. Then you can set your shortcut. You can set the keybinding by pressing the `Set Shortcut...` button and then entering the keybindings that you want to use for this shortcut. HOWEVER, BE CAREFUL that you don't use an already-existing shortcut. If you want to use an already-existing shortcut, make sure you remove that shortcut first.
 
 ### eh voila
