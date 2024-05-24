@@ -44,6 +44,8 @@ else
 ```
 Comment out your current `PS1` value and add the `PS1` definition that you see above. Note that instead of the arrow, add any unicode symbol (at least I believe so).
 
+Note that you can also just add `PS1="\[\e[38;2;253;255;194m\]──➤ \[\e[0m\]\[\e[1m\]\W\[\e[0m\] "` near the end of your `~/.bashrc` script.
+
 ### Making sure you can use this terminal with the robot
 By default, the kitty terminal uses the `xterm-kitty` terminal emulator. However, the mirte master does not recongize this terminal emulator, but uses export `xterm-256color` instead. So in order to be able to use the kitty terminal with your robot, add the following line at the end of your `~/.bashrc`:
 ```bash
